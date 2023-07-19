@@ -15,7 +15,7 @@ paginate=5 # articles per page
 [params]
 	mode="auto" # color-mode → light,dark,toggle or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-	subtitle = "软件研发工程师之路，刚刚开始～"
+	subtitle = "程序员之路，才刚刚开始！"
 	mathjax = true # enable MathJax support
 	katex = true # enable KaTeX support
 
