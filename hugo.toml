@@ -1,34 +1,37 @@
 baseURL = 'http://perfectkars.github.io/'
 languageCode = 'zh-CN'
+defaultContentLanguage= 'zh'
 title = 'PerfectKars'
-theme = 'archie'
-copyright = "© Athul"
+theme = 'fluency'
+enableRobotsTXT=true
+
 # Code Highlight
-pygmentsstyle = "monokai"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true # enable theme-defined highlight style
+pygmentsCodefences = true
+
+enableEmoji=true
 
 disqusShortname = "perfectkars"
 
-paginate=5 # articles per page
-
 [params]
-	mode="auto" # color-mode → light,dark,toggle or auto
-	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-	subtitle = "程序员之路，才刚刚开始！"
-	mathjax = true # enable MathJax support
-	katex = true # enable KaTeX support
+	copyright = "© Perfectkars"
+
+[params.pageSize]
+index= 5
+list= 10
+terms= 60
+archives= 20
 
 # Social Tags
 
-[[params.social]]
+[[menu.footer]]
 name = "GitHub"
-icon = "github"
+identifier = "github"
 url = "https://github.com/perfectkars"
 
-[[params.social]]
+[[menu.footer]]
 name = "Twitter"
-icon = "twitter"
+identifier = "twitter"
 url = "https://twitter.com/xiaomayiyahei"
 
 # Main menu Items
@@ -52,3 +55,8 @@ weight = 3
 name = "Tags"
 url = "/tags"
 weight = 4
+
+[[menu.main]]
+name = "Moment"
+url = "/moment"
+weight = 5
