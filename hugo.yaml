@@ -1,0 +1,43 @@
+baseURL: http://perfectkars.github.io/
+languageCode: zh-CN
+defaultContentLanguage: zh
+title: PerfectKars
+theme: fluency
+enableRobotsTXT: true
+pygmentsUseClasses: true
+pygmentsCodefences: true
+enableEmoji: true
+disqusShortname: perfectkars
+hasCJKLanguage: true
+enableGitInfo: true
+params:
+    copyright: © Perfectkars
+    pageSize:
+        index: 5
+        list: 10
+        terms: 60
+        archives: 20
+menu:
+    footer:
+        - name: GitHub
+          identifier: github
+          url: https://github.com/perfectkars
+        - name: Twitter
+          identifier: twitter
+          url: https://twitter.com/xiaomayiyahei
+    main:
+        - name: Home
+          url: /
+          weight: 1
+        - name: All posts
+          url: /posts
+          weight: 2
+        - name: About
+          url: /about
+          weight: 3
+        - name: Tags
+          url: /tags
+          weight: 4
+        - name: Moment
+          url: /moment
+          weight: 5
