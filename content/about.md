@@ -1,7 +1,6 @@
 ---
-title: "About"
-date: 2023-07-19T23:09:44+08:00
-draft: false
+title: About
+layout: default
 ---
 # 关于我
 
