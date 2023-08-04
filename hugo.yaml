@@ -10,6 +10,8 @@ enableEmoji: true
 disqusShortname: perfectkars
 hasCJKLanguage: true
 enableGitInfo: true
+googleAnalytics: G-LLSDPQTHM1
+
 params:
     copyright: © Perfectkars
     pageSize:
